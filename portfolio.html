@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+
+    <header class="header">
+        <nav class="navbar">
+            <h1 class="logo">My Portfolio</h1>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-content"><br><br><br><br>
+            <h2>Hello! I'm Dominik Tóth, web and software developer.</h2>
+            <p>Creative and innovative solutions in the world of modern web design.</p>
+            <img src="en.jpg" alt="me">
+        </div>
+        <a href="#projects" class="btn">View Projects</a>
+    </header>
+
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>I'm Dominik Tóth, and I'm passionate about web and software development. I've completed numerous successful projects, delivering high-quality solutions for my clients.
+        </p>
+        <p>
+            Education
+            2012-2020: Nyíregyházi Apáczai Csere János Általános Iskola és AMI <br>
+2020-Present: Nyíregyházi SZC Széchenyi István Technikum és Kollégium (Specialization: Software Development and Testing)
+
+        </p>
+        <li>
+            <ul>Skills:</ul>
+            <ul>Proficient in Java and JavaScript
+            </ul>
+            <ul>Expertise in Software Testing
+            </ul>
+            <ul>Web Development with React</ul>
+            <ul>Basic Python programming
+            </ul>
+            <ul>Database management
+            </ul>
+        </li>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2>Some of my projects</h2>
+        <div class="project-list">
+            <div class="project-item">
+                <img src="tictactoe.png" alt="tictactoe">
+                <h3>TicTacToe</h3>
+                <p>Players take turns putting their marks in empty squares. The first player to get 3 of her marks in a row (up, down, across, or diagonally) is the winner. When all 9 squares are full, the game is over. If no player has 3 marks in a row, the game ends in a tie.</p>
+            </div>
+            <div class="project-item">
+                <img src="21.jpg" alt="21">
+                <h3>21</h3>
+                <p>Get as close to 21 as possible without going over. Number cards are face value; face cards (King, Queen, Jack) are 10; Aces are 1 or 11. Take an additional card to try to get closer to 21. If your hand goes over 21, you lose that round. Beat the dealer by having a higher hand total without exceeding 21.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact</h2>
+        <p>If you'd like to get in touch with me, please fill out the form below!</p>
+        <form action="#" method="POST">
+            <input type="text" name="name" placeholder="Name" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <textarea name="message" placeholder="Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2024 Dominik Tóth. All rights reserved.</p>
+    </footer>
+</body>
+</html>
